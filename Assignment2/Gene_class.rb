@@ -1,85 +1,67 @@
-require '/home/osboxes/BioinformaticsIntroGit/Assignments/Assignment2/Interaction_class.rb' 
-
+require './Interaction_class.rb' 
+require './common_functions.rb' 
+require './Annotation_class.rb' 
+require 'json'
+require 'rest-client'
 
 class Gene
   
-
+  # Class to hold the information associated with each gene
   attr_accessor :id                # "attribute accessor" for "@id"
   attr_accessor :partners          # "attribute accessor" for "@partners"
   attr_accessor :interactions      # "attribute accessor" for "@interactions"
-  attr_accessor :initial           # "attribute accessor" for "@initial"
-  
+  attr_accessor :level             # "attribute accessor" for "@level"
+  attr_accessor :annotations       # "attribute accessor" for "@annotations"
   @@all_genes = {}
-  @@network_genes = []
-  @@network_interactions = []
-  
   
   def initialize(params={})
-    
-    @initial = params.fetch(:initial)
+    @annotations = {}
+    @level = params.fetch(:level)
     @id = params.fetch(:id)
-    @@network_genes |= [@id]
-    
     @partners = params.fetch(:partners)
     @interactions = params.fetch(:interactions)
-    @@network_interactions << [@interactions] # las interacciones pueden ser de ambos sentidos: <<
-    
-    @@all_genes[id.to_sym] = self
-    
     @partners = [@partners] unless @partners.is_a? Array
-    #@partners = update_partners
+    @@all_genes[@id.to_sym] = self
   end
     
   
-  def Gene.get_gene(id)
+  def Gene.get_gene(id) # Access an individual gene
     return @@all_genes[id.to_sym]
-  end
-  
-  
-  def update_partners
-    new_partners = []
-    
-    # Filter if the genes are already gene objects
-    all_classes = []
-    @partners.each { |partner|
-      if partner.is_a? String
-        all_classes << false
-      elsif partner.is_a? Gene
-        all_classes << true
-      else
-        all_classes << false
-      end
-      
-      }
-    
-    if all_classes.all?
-        return @partners
-    end
-    
-    @partners.each {|partner|
-      if Gene.get_gene(partner) # if the gene object with the partner id exists, add it to the @partners list
-        new_partners |= [Gene.get_gene(partner)]
-      else # if it doesnt exist, create and add it to the @partners list
-        new_partners |= [Gene.new({id: partner,
-                               partners: @id,
-                               interactions: Interaction.get_interactions(@id, partner)})]
-      end
-      }
-    return new_partners
-  end
-  
-  
-  def Gene.get_network_genes
-    return @@network_genes
-  end
-  
-  
-  def Gene.get_network_interactions
-    return @@network_interactions
   end
   
   
   def Gene.get_all_genes
     return @@all_genes
   end
+  
+  
+  def annotate_go # Function to annotate the gene ontology.
+    if @annotations.is_a? Hash
+      @annotations = Annotation.new({id: @id}) # Uses the general annotation class
+    end
+    annotation_list = @annotations.go
+    @annotations.annotations[:GO] = annotation_list
+  end
+  
+  
+  def annotate_kegg # Function to annotate the kegg pathways associated with this gene
+    if @annotations.is_a? Hash
+      @annotations = Annotation.new({id: @id}) # Uses the general annotation class
+    end
+    annotation_list = @annotations.kegg
+    @annotations.annotations[:KEGG] = annotation_list
+  end
+  
+  
+  def general_annotation(key) # Funtion to annotate any other information
+    if @annotations.is_a? Hash
+      @annotations = Annotation.new({id: @id}) # Uses the general annotation class
+    end
+    annotation_list = @annotations.general_use(key)
+    unless annotation_list.nil?
+      @annotations.annotations[key.to_sym] = annotation_list
+    end
+  end
+  
+  
 end

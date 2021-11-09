@@ -1,0 +1,1913 @@
+Test: Are all gene ids arabidopsis gene identifiers?
+Test passed.
+Querrying level 0 genes...
+Number of successful querries: 23
+Number of unsuccesful querries: 145
+
+Compiling failed querries and refining succesfull querries...
+Registering interacted genes (level 1 genes)
+
+Removing from the interacted genes (if any) all genes with failed querries
+Number of interacted genes: 74
+
+
+Creating gene objects (Level 0)...
+Querrying level 1 genes...
+Number of successful querries: 86
+Number of unsuccesful querries: 146
+
+Compiling failed querries and refining succesfull querries...
+Registering interacted genes (level 2 genes)
+
+Removing from the interacted genes (if any) all genes with failed querries
+Number of interacted genes: 1727
+
+
+Creating gene objects (Level 1)...
+
+Extracting fails.
+Creating L2 genes...
+Final number of genes to analyse: 364
+
+
+Number of initial genes: 23
+Number of Level 1 genes: 72
+Number of Level 2 genes: 1094
+
+==============================
+Summary of the genes extracted from the web:
+0 <- Gene from the original 168 genes
+1 <- Gene among the interactions of the initial genes
+2 <- Gene among the interactions of interactions of initial genes
+
+Initial genes:
+00000000000000000000000
+
+Level 1 genes:
+111111111111111111111111111111111111111111111111111111111111111111111111
+
+Level 2 genes:
+11111111111111111111111111111111111111111111111111111111111111111111111112222222222212222222222222202222222202222220222212222222222222222202222222222222202222001111111121012111122201212222122122122212222211202222222211221221212222221221212222222121222222222222022112222221221221222222222222221222122222222222222222222022221222222222222222222222222211212101111111211101111221110111112222222222221212222122212222212222222222212122222222222222222222222222212222222220222222221222022212222212222221121111101002220222202212222202222222220222212222212121222222221220222212222021222221222222222222222222222222222222222222222202222122212212222122222222222222222222222222202122202122221111001222222221022222222222222222102202222122212222202221222222212212122222222222222222222222112022222222222222212022222122212212122222222221222222222222022210110111202022222222222222222222222022222222202222122222122220222222222112222222222222222102222222222222222212222122022222212222222212222221221221222222120221222222222020011022102221022222001122122202020020222222222222222222222221122222222112222222122222222221
+
+----------------------------------------------------
+
+Network found: At4g09650, At4g37260, At1g53170, At3g15030, At1g31880, At5g60120, At3g02150, At1g60250, At5g08330, At5g19000, At1g35560, At5g43700, At5g12980, At1g04240, At4g32570, At1g52830, At5g65670, At1g04100, At1g30490, At1g80390, At3g16500, At3g07220, At3g17600, At1g15050, At1g01360, At2g45680, At3g18550, At1g73410, At5g67300, At5g24520, At4g03250, At5g53160, At2g23290, At2g01760, At4g00180, At1g76080, At4g28860, At2g25490, At3g29350, At1g01140, At2g30590, At2g37630, At2g25090, At1g51660, At2g42880, At1g10210, At3g14720, At1g22770, At3g02140, At1g66160, At5g59730, At5g16400, At3g21150, At5g54470, At4g38960, At2g31380, At3g55150, At3g18140, At4g11070, At1g45790, At3g06430, At5g14170, At5g22890, At1g45300, At4g15770, At1g06460, At5g05790, At1g03130, At1g21600, At1g10780, At3g42630, At5g51760, At1g37130, At5g48470, At3g01680, At1g54200, At1g09810, At1g67090, At4g02770, At3g52300, At3g49810, At5g16080, At5g47370, At2g33860, At5g67110, At4g08150, At2g31070, At2g42280, At4g17460, At1g69690, At2g01940, At3g13960, At1g19220, At3g14180, At2g46970, At4g04885, At5g09460, At5g50010, At3g60390, At4g16780, At1g61660, At5g08130, At3g20260, At5g60970, At2g44910, At5g66350, At1g58100, At1g08320, At5g09750, At3g47620, At5g28640, At5g23000, At1g26780, At2g29580, At4g14560, At3g21810, At5g51910, At3g23030, At4g15250, At4g00270, At5g15840, At4g37180, At4g39070, At2g25650, At1g51600, At2g33500, At4g37940, At3g58630, At5g42910, At3g45150, At2g38250, At3g28917, At5g39760, At5g62000, At4g37740, At2g27110, At1g31630, At1g19790, At1g13450, At1g21200, At2g24790, At5g06950, At4g00870, At2g41690, At5g62610, At3g28920, At3g01220, At5g01380, At2g18120, At4g34530, At5g61380, At5g23280, At5g38800, At1g22070, At2g47700, At2g04038, At2g18300, At1g32640, At4g27950, At1g43700, At5g06160, At5g15210, At2g33835, At4g14713, At1g08970, At5g27910, At2g04890, At1g77920, At5g26749, At1g35490, At3g17860, At3g04730, At2g46990, At2g40330, At1g15550, At5g18930, At4g32980, At1g18350, At4g14720, At3g04240, At4g37470, At2g44740, At3g48750, At5g18110, At1g14030, At4g37790, At2g22800, At1g70920, At5g57180, At1g42220, At3g21175, At5g15850, At1g30460, At5g53950, At1g25550, At2g02540, At2g33290, At2g40260, At3g48090, At1g24625, At5g63090, At5g65210, At1g69180, At2g13570, At1g30500, At1g23420, At2g25620, At1g20700, At3g24490, At1g72210, At1g17590, At2g41940, At5g67180, At3g20910, At4g10600, At3g15210, At5g54360, At2g36740, At5g37260, At4g36260, At3g24520, At1g04250, At2g38130, At4g01460, At2g02450, At5g25220, At3g50700, At2g02060, At3g01970, At2g17950, At5g17300, At5g39660, At1g19860, At2g34720, At1g68360, At1g75520, At1g46480, At1g07360, At3g07740, At4g27330, At1g69810, At1g75080, At5g04820, At4g34990, At5g17800, At2g36026, At1g28360, At5g25160, At1g05710, At5g44210, At3g25882, At1g09415, At2g45190, At1g68480, At1g69170, At3g50870, At4g36540, At4g10240, At5g26650, At3g14020, At1g69570, At1g16640, At5g50570, At3g26620, At3g05690, At2g33710, At5g16560, At1g10480, At5g59430, At2g28610, At3g58070, At1g69120, At5g43620, At1g69560, At4g29100, At3g49940, At1g66810, At5g08070, At4g20380, At3g01140, At5g65050, At4g12210, At3g15354, At1g53090, At2g32950, At1g68130, At4g33450, At1g20980, At1g71030, At2g18350, At1g51120, At1g54490, At5g47390, At4g00240, At5g05120, At1g14280, At3g02380, At1g07050, At1g73870, At1g49130, At2g46670, At1g25440, At5g41380, At3g12890, At2g47890, At3g21880, At5g47640, At2g37060, At3g53340, At4g14540, At2g47810, At2g46790, At5g11260, At1g28050, At2g38880, At5g47670, At1g09030, At5g45710, At4g09820, At5g41315, At2g21320, At3g17609, At4g15248, At1g06040, At1g76510, At2g02950, At2g18790, At1g09570, At1g56650, At3g07650, At1g04400, At1g02340, At1g09530, At3g21870, At2g43010, At3g46640, At2g20180
+
+Initial genes in the network: At4g09650, At1g76080, At1g03130, At1g37130, At4g02770, At4g17460, At5g15850, At5g17300, At1g71030, At1g14280, At3g21870, At2g43010
+
+Network found: At4g22890, At1g60950, At4g32010, At3g56850, At3g62550
+
+Initial genes in the network: At4g22890, At3g62550
+
+All networks possible found
+
+Length of the network(s): 337, 5.
+
+Sub network 1:
+
+
+GO process:
+GO:0015986;ATP synthesis coupled proton transport
+GO:0042742;defense response to bacterium
+GO:0015979;photosynthesis
+GO:0009773;photosynthetic electron transport in photosystem I
+GO:0009772;photosynthetic electron transport in photosystem II
+GO:0009409;response to cold
+GO:0035556;intracellular signal transduction
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0006122; ubiquinol to cytochrome c
+GO:0009873;activated signaling pathway
+GO:0006886;intracellular protein transport
+GO:0016192;mediated transport
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0009854;oxidative photosynthetic carbon pathway
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0009736;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0009737;response to abscisic acid
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0009873;activated signaling pathway
+GO:0010629;negative regulation of gene expression
+GO:0045824;negative regulation of innate immune response
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0031347;regulation of defense response
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0006021;inositol biosynthetic process
+GO:0046855;inositol phosphate dephosphorylation
+GO:0046854;phosphatidylinositol phosphorylation
+GO:0006355;templated
+GO:0043433;binding transcription factor activity
+GO:0042753;positive regulation of circadian rhythm
+GO:0042752;regulation of circadian rhythm
+GO:0006355;templated
+GO:0048511;rhythmic process
+GO:0007031;peroxisome organization
+GO:0071472;cellular response to salt stress
+GO:0042631;cellular response to water deprivation
+GO:0016567;protein ubiquitination
+GO:0006970;response to osmotic stress
+GO:0046496;nicotinamide nucleotide metabolic process
+GO:0048510;regulation of timing of transition from vegetative to reproductive phase
+GO:0006355;templated
+GO:0009734;activated signaling pathway
+GO:0009733;response to auxin
+GO:0006355;templated
+GO:0017148;negative regulation of translation
+GO:0009734;activated signaling pathway
+GO:0009733;response to auxin
+GO:0006355;templated
+GO:0006004;fucose metabolic process
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0009734;activated signaling pathway
+GO:0009704;etiolation
+GO:0009733;response to auxin
+GO:0006355;templated
+GO:0006857;oligopeptide transport
+GO:0009734;activated signaling pathway
+GO:0009733;response to auxin
+GO:0010200;response to chitin
+GO:0006355;templated
+GO:0009943;abaxial axis specification
+GO:0030154;cell differentiation
+GO:0009855;determination of bilateral symmetry
+GO:0009880;embryonic pattern specification
+GO:0080060;integument development
+GO:0010014;meristem initiation
+GO:0009944;abaxial axis
+GO:0010072;primary shoot apical meristem specification
+GO:0009734;activated signaling pathway
+GO:0006355;templated
+GO:0009733;response to auxin
+GO:0009734;activated signaling pathway
+GO:0009733;response to auxin
+GO:0006355;templated
+GO:0005975;carbohydrate metabolic process
+GO:0006338;chromatin remodeling
+GO:0048638;regulation of developmental growth
+GO:0080086;stamen filament development
+GO:0035998;triphosphate biosynthetic process
+GO:0046654;tetrahydrofolate biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0009630;gravitropism
+GO:0009733;response to auxin
+GO:0048364;root development
+GO:0048367;shoot system development
+GO:0006355;templated
+GO:0030261;chromosome condensation
+GO:0009738;activated signaling pathway
+GO:0080163;threonine phosphatase activity
+GO:0006355;templated
+GO:1900056;negative regulation of leaf senescence
+GO:0008361;regulation of cell size
+GO:0006355;templated
+GO:0048364;root development
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0010223;secondary shoot formation
+GO:0007275;multicellular organism development
+GO:0071555;cell wall organization
+GO:2000652;regulation of secondary cell wall biogenesis
+GO:0006355;templated
+GO:0009738;activated signaling pathway
+GO:0042742;defense response to bacterium
+GO:0050832;defense response to fungus
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:1900150;regulation of defense response to fungus
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:2000031;regulation of salicylic acid mediated signaling pathway
+GO:0006355;templated
+GO:0009737;response to abscisic acid
+GO:0010200;response to chitin
+GO:0009753;response to jasmonic acid
+GO:0009751;response to salicylic acid
+GO:0009651;response to salt stress
+GO:0009414;response to water deprivation
+GO:0045165;cell fate commitment
+GO:0009957;epidermal cell fate specification
+GO:0007275;multicellular organism development
+GO:0032880;regulation of protein localization
+GO:0009733;response to auxin
+GO:0009723;response to ethylene
+GO:0010026;trichome differentiation
+GO:0098869;cellular oxidant detoxification
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0046686;response to cadmium ion
+GO:0001173;templated transcriptional start site selection
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0045893;templated
+GO:0006355;templated
+GO:0009637;response to blue light
+GO:0009739;response to gibberellin
+GO:0042742;defense response to bacterium
+GO:0009626;type hypersensitive response
+GO:0009862; salicylic acid mediated signaling pathway
+GO:0006351;templated
+GO:0010629;negative regulation of gene expression
+GO:0009737;response to abscisic acid
+GO:0009414;response to water deprivation
+GO:0010031;circumnutation
+GO:0009590;detection of gravity
+GO:0048444;floral organ morphogenesis
+GO:0009630;gravitropism
+GO:0009965;leaf morphogenesis
+GO:0009959;negative gravitropism
+GO:0010601;positive regulation of auxin biosynthetic process
+GO:2000012;regulation of auxin polar transport
+GO:2000904;regulation of starch metabolic process
+GO:0006338;chromatin remodeling
+GO:0048638;regulation of developmental growth
+GO:0080086;stamen filament development
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0009736;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0009943;abaxial axis specification
+GO:0009855;determination of bilateral symmetry
+GO:0009880;embryonic pattern specification
+GO:0080060;integument development
+GO:0010014;meristem initiation
+GO:0009944;abaxial axis
+GO:0010072;primary shoot apical meristem specification
+GO:0007275;multicellular organism development
+GO:0010091;trichome branching
+GO:2000032;regulation of secondary shoot formation
+GO:0010223;secondary shoot formation
+GO:0006952;defense response
+GO:0009607;response to biotic stimulus
+GO:0009738;activated signaling pathway
+GO:0009789;activated signaling pathway
+GO:0080163;threonine phosphatase activity
+GO:0009737;response to abscisic acid
+GO:0009736;activated signaling pathway
+GO:0000160;phosphorelay signal transduction system
+GO:0010158;abaxial cell fate specification
+GO:0045165;cell fate commitment
+GO:0010154;fruit development
+GO:0009944;abaxial axis
+GO:2000024;regulation of leaf development
+GO:1902183;regulation of shoot apical meristem development
+GO:0006355;templated
+GO:0007275;multicellular organism development
+GO:0045454;cell redox homeostasis
+GO:0006979;response to oxidative stress
+GO:0009414;response to water deprivation
+GO:0009785;blue light signaling pathway
+GO:0006897;endocytosis
+GO:0018105;serine phosphorylation
+GO:0009640;photomorphogenesis
+GO:0046777;protein autophosphorylation
+GO:0009637;response to blue light
+GO:0009873;activated signaling pathway
+GO:0010105;activated signaling pathway
+GO:0016567;protein ubiquitination
+GO:0009723;response to ethylene
+GO:0031146;dependent protein catabolic process
+GO:0006511;dependent protein catabolic process
+GO:0009557;antipodal cell differentiation
+GO:0009736;activated signaling pathway
+GO:0009560;embryo sac egg cell differentiation
+GO:0000160;phosphorelay signal transduction system
+GO:0016310;phosphorylation
+GO:0051365;cellular response to potassium ion starvation
+GO:0055075;potassium ion homeostasis
+GO:0043266;regulation of potassium ion transport
+GO:0009409;response to cold
+GO:0010555;response to mannitol
+GO:0009651;response to salt stress
+GO:0009611;response to wounding
+GO:0007165;signal transduction
+GO:0019760;glucosinolate metabolic process
+GO:0008356;asymmetric cell division
+GO:0042742;defense response to bacterium
+GO:0050832;defense response to fungus
+GO:0009908;flower development
+GO:0010338;leaf formation
+GO:0009965;leaf morphogenesis
+GO:0045892;templated
+GO:0009944;abaxial axis
+GO:0045088;regulation of innate immune response
+GO:0009615;response to virus
+GO:0042538;hyperosmotic salinity response
+GO:0007165;signal transduction
+GO:0006814;sodium ion transport
+GO:0098542;defense response to other organism
+GO:0010227;floral organ abscission
+GO:0010229;inflorescence development
+GO:0009626;type hypersensitive response
+GO:0009875;pistil interaction
+GO:0051560;mitochondrial calcium ion homeostasis
+GO:0035556;intracellular signal transduction
+GO:0009734;activated signaling pathway
+GO:0035556;intracellular signal transduction
+GO:0030154;cell differentiation
+GO:0007623;circadian rhythm
+GO:0009908;flower development
+GO:0048578; flowering
+GO:0009585;red light phototransduction
+GO:0042752;regulation of circadian rhythm
+GO:0048586; flowering
+GO:0006355;templated
+GO:0009637;response to blue light
+GO:0009409;response to cold
+GO:0010218;response to far red light
+GO:0042542;response to hydrogen peroxide
+GO:0080167;response to karrikin
+GO:0010378;temperature compensation of the circadian clock
+GO:2000028; flowering
+GO:0006260;DNA replication
+GO:0009788;activated signaling pathway
+GO:0045892;templated
+GO:0010581;regulation of starch biosynthetic process
+GO:0009737;response to abscisic acid
+GO:0009651;response to salt stress
+GO:0007165;signal transduction
+GO:0007049;cell cycle
+GO:0010200;response to chitin
+GO:0006887;exocytosis
+GO:0015031;protein transport
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0045454;cell redox homeostasis
+GO:0043085;positive regulation of catalytic activity
+GO:0009642;response to light intensity
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0009736;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0009737;response to abscisic acid
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0032957;inositol trisphosphate metabolic process
+GO:0009785;blue light signaling pathway
+GO:0045892;templated
+GO:0009640;photomorphogenesis
+GO:0010017;red light signaling pathway
+GO:0009909;regulation of flower development
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0016197;endosomal transport
+GO:0015031;protein transport
+GO:0009555;pollen development
+GO:0009409;response to cold
+GO:0071456;cellular response to hypoxia
+GO:0006355;templated
+GO:0010100;negative regulation of photomorphogenesis
+GO:0009640;photomorphogenesis
+GO:0006355;templated
+GO:0032259;methylation
+GO:0007623;circadian rhythm
+GO:0010228;vegetative to reproductive phase transition of meristem
+GO:0010100;negative regulation of photomorphogenesis
+GO:0009640;photomorphogenesis
+GO:0006355;templated
+GO:0006952;defense response
+GO:0006887;exocytosis
+GO:1900426;positive regulation of defense response to bacterium
+GO:0009617;response to bacterium
+GO:0009620;response to fungus
+GO:0002237;response to molecule of bacterial origin
+GO:0015031;protein transport
+GO:0048571;day photoperiodism
+GO:0007275;multicellular organism development
+GO:0032956;regulation of actin cytoskeleton organization
+GO:0040008;regulation of growth
+GO:1900088;regulation of inositol biosynthetic process
+GO:1900091;regulation of raffinose biosynthetic process
+GO:0031929;TOR signaling
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0009793;embryo development ending in seed dormancy
+GO:0009553;embryo sac development
+GO:0009555;pollen development
+GO:0048868;pollen tube development
+GO:0018298;chromophore linkage
+GO:0006355;templated
+GO:0050896;response to stimulus
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0006281;DNA repair
+GO:0006337;nucleosome disassembly
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0009909;regulation of flower development
+GO:0010468;regulation of gene expression
+GO:2000024;regulation of leaf development
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0010224;B
+GO:0048364;root development
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0010200;response to chitin
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0042538;hyperosmotic salinity response
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0007275;multicellular organism development
+GO:0009938;negative regulation of gibberellic acid mediated signaling pathway
+GO:0010187;negative regulation of seed germination
+GO:2000377;regulation of reactive oxygen species metabolic process
+GO:2000033;regulation of seed dormancy process
+GO:0009737;response to abscisic acid
+GO:0009723;response to ethylene
+GO:0009739;response to gibberellin
+GO:0009863;salicylic acid mediated signaling pathway
+GO:0030154;cell differentiation
+GO:0006952;defense response
+GO:0009908;flower development
+GO:0010029;regulation of seed germination
+GO:0048444;floral organ morphogenesis
+GO:0048530;fruit morphogenesis
+GO:0010476;gibberellin mediated signaling pathway
+GO:0010629;negative regulation of gene expression
+GO:1905516;positive regulation of fertilization
+GO:0009939;positive regulation of gibberellic acid mediated signaling pathway
+GO:0010325;raffinose family oligosaccharide biosynthetic process
+GO:0010336;gibberellic acid homeostasis
+GO:0033206;meiotic cytokinesis
+GO:1905614;negative regulation of developmental vegetative growth
+GO:1905622;negative regulation of leaf development
+GO:1900033;negative regulation of trichome patterning
+GO:0010233;phloem transport
+GO:0010628;positive regulation of gene expression
+GO:1903508;templated transcription
+GO:0006808;regulation of nitrogen utilization
+GO:0010218;response to far red light
+GO:0045893;templated
+GO:0042176;regulation of protein catabolic process
+GO:0006355;templated
+GO:0010447;response to acidic pH
+GO:0010044;response to aluminum ion
+GO:0010200;response to chitin
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0008356;asymmetric cell division
+GO:0042742;defense response to bacterium
+GO:0050832;defense response to fungus
+GO:0009908;flower development
+GO:0010338;leaf formation
+GO:0009965;leaf morphogenesis
+GO:0045892;templated
+GO:0009944;abaxial axis
+GO:0045088;regulation of innate immune response
+GO:0009615;response to virus
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0009736;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0009737;response to abscisic acid
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0009631;cold acclimation
+GO:0009409;response to cold
+GO:0042255;ribosome assembly
+GO:0042273;ribosomal large subunit biogenesis
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0048825;cotyledon development
+GO:0009736;activated signaling pathway
+GO:0009873;activated signaling pathway
+GO:0048366;leaf development
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0009737;response to abscisic acid
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0016117;carotenoid biosynthetic process
+GO:0015979;photosynthesis
+GO:0042793;plastid transcription
+GO:0045893;templated
+GO:0006355;templated
+GO:0042744;hydrogen peroxide catabolic process
+GO:0006979;response to oxidative stress
+GO:0006952;defense response
+GO:0009873;activated signaling pathway
+GO:0010200;response to chitin
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+
+GO:0009737;response to abscisic acid
+GO:0042128;nitrate assimilation
+GO:0006809;nitric oxide biosynthetic process
+GO:0009635;response to herbicide
+GO:0009416;response to light stimulus
+GO:0009610;response to symbiotic fungus
+GO:0009658;chloroplast organization
+GO:0006355;templated
+GO:0006865;amino acid transport
+GO:0010088;phloem development
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0060918;auxin transport
+GO:0009734;activated signaling pathway
+GO:0030154;cell differentiation
+GO:0009736;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010078;maintenance of root meristem identity
+GO:0010088;phloem development
+GO:2000280;regulation of root development
+GO:0009737;response to abscisic acid
+GO:0048364;root development
+GO:0048756;sieve cell differentiation
+GO:0061157;mRNA destabilization
+GO:0006260;DNA replication
+GO:0000731;DNA synthesis involved in DNA repair
+GO:0009853;photorespiration
+GO:0015979;photosynthesis
+GO:0019253;phosphate cycle
+GO:0009409;response to cold
+GO:0110102;ribulose bisphosphate carboxylase complex assembly
+GO:0007165;signal transduction
+GO:0140547;acquisition of seed longevity
+GO:0015979;photosynthesis
+GO:0035556;intracellular signal transduction
+GO:0019760;glucosinolate metabolic process
+GO:1901001;negative regulation of response to salt stress
+GO:0010929;positive regulation of auxin mediated signaling pathway
+GO:0006355;templated
+GO:0010200;response to chitin
+GO:0015986;ATP synthesis coupled proton transport
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0071472;cellular response to salt stress
+GO:1901001;negative regulation of response to salt stress
+GO:0009734;activated signaling pathway
+GO:0045892;templated
+GO:0009733;response to auxin
+GO:0009641;shade avoidance
+GO:0009826;unidimensional cell growth
+GO:0006355;templated
+GO:0010158;abaxial cell fate specification
+GO:0009850;auxin metabolic process
+GO:0009734;activated signaling pathway
+GO:0010582;floral meristem determinacy
+GO:1902584;positive regulation of response to water deprivation
+GO:0009733;response to auxin
+GO:0010050;vegetative phase change
+GO:0006355;templated
+GO:0010047;fruit dehiscence
+GO:0045165;cell fate commitment
+GO:0001708;cell fate specification
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0010051;xylem and phloem pattern formation
+GO:0010089;xylem development
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0048573; flowering
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0003006;developmental process involved in reproduction
+GO:0010582;floral meristem determinacy
+GO:0080127;fruit septum development
+GO:0048467;gynoecium development
+GO:0010252;auxin homeostasis
+GO:0051301;cell division
+GO:0007623;circadian rhythm
+GO:0042023;DNA endoreduplication
+GO:0048467;gynoecium development
+GO:0010229;inflorescence development
+GO:0031540;regulation of anthocyanin biosynthetic process
+GO:0006355;templated
+GO:0009735;response to cytokinin
+GO:0080086;stamen filament development
+GO:0010031;circumnutation
+GO:0009590;detection of gravity
+GO:0048444;floral organ morphogenesis
+GO:0009630;gravitropism
+GO:0009965;leaf morphogenesis
+GO:0009959;negative gravitropism
+GO:0010601;positive regulation of auxin biosynthetic process
+GO:2000012;regulation of auxin polar transport
+GO:2000904;regulation of starch metabolic process
+GO:0006355;templated
+GO:0048366;leaf development
+GO:0006355;templated
+GO:0009409;response to cold
+GO:0009739;response to gibberellin
+GO:0006351;templated
+GO:0032502;developmental process
+GO:0009734;activated signaling pathway
+GO:0048527;lateral root development
+GO:0010311;lateral root formation
+GO:0048366;leaf development
+GO:0009733;response to auxin
+GO:0009723;response to ethylene
+GO:0009793;embryo development ending in seed dormancy
+GO:0006355;templated
+GO:0010431;seed maturation
+GO:1990110;callus formation
+GO:0010017;red light signaling pathway
+GO:0006355;templated
+GO:0009641;shade avoidance
+GO:0009908;flower development
+GO:0006378;mRNA polyadenylation
+GO:0006397;mRNA processing
+GO:0009911;positive regulation of flower development
+GO:0006369;termination of RNA polymerase II transcription
+GO:0010311;lateral root formation
+GO:0045892;templated
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0009733;response to auxin
+GO:0009735;response to cytokinin
+GO:0010218;response to far red light
+GO:0048364;root development
+GO:0080191;secondary thickening
+GO:0009641;shade avoidance
+GO:0010016;shoot system morphogenesis
+GO:0009826;unidimensional cell growth
+GO:0009734;activated signaling pathway
+GO:0006355;templated
+GO:0071215;cellular response to abscisic acid stimulus
+GO:0071472;cellular response to salt stress
+GO:0042631;cellular response to water deprivation
+GO:0045893;templated
+GO:2000214;regulation of proline metabolic process
+GO:2000377;regulation of reactive oxygen species metabolic process
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006351;templated
+GO:0009742;brassinosteroid mediated signaling pathway
+GO:1902448;positive regulation of shade avoidance
+GO:0006355;templated
+GO:0048366;leaf development
+GO:0009965;leaf morphogenesis
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0009408;response to heat
+GO:0006355;templated
+GO:0010218;response to far red light
+GO:0009725;response to hormone
+GO:0009641;shade avoidance
+GO:0048653;anther development
+GO:0009851;auxin biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0009938;negative regulation of gibberellic acid mediated signaling pathway
+GO:0009555;pollen development
+GO:0045893;templated
+GO:0009739;response to gibberellin
+GO:0007275;multicellular organism development
+GO:0048653;anther development
+GO:0071588;hydrogen peroxide mediated signaling pathway
+GO:0002237;response to molecule of bacterial origin
+GO:0006351;templated
+GO:0006534;cysteine metabolic process
+GO:0048462;carpel formation
+GO:0048467;gynoecium development
+GO:0006355;templated
+GO:0010500;transmitting tissue development
+GO:0010229;inflorescence development
+GO:0031347;regulation of defense response
+GO:0010029;regulation of seed germination
+GO:0006355;templated
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009739;response to gibberellin
+GO:0015031;protein transport
+GO:0009955;abaxial pattern specification
+GO:0051301;cell division
+GO:0008283;cell population proliferation
+GO:0048825;cotyledon development
+GO:0048366;leaf development
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0010468;regulation of gene expression
+GO:0090506;axillary shoot meristem initiation
+GO:0007275;multicellular organism development
+GO:0010199;organ boundary specification between lateral organs and the meristem
+GO:0006355;templated
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0042742;defense response to bacterium
+GO:0016567;protein ubiquitination
+GO:0010310;regulation of hydrogen peroxide metabolic process
+GO:0009642;response to light intensity
+GO:0010188;response to microbial phytotoxin
+GO:0009651;response to salt stress
+GO:0009697;salicylic acid biosynthetic process
+GO:0006338;chromatin remodeling
+GO:0048638;regulation of developmental growth
+GO:0080086;stamen filament development
+GO:0031347;regulation of defense response
+GO:0006355;templated
+GO:0002229;defense response to oomycetes
+GO:0006355;templated
+GO:0030154;cell differentiation
+GO:0010018;red light signaling pathway
+GO:0009908;flower development
+GO:0009909;regulation of flower development
+GO:0010218;response to far red light
+GO:0048449;floral organ formation
+GO:0010629;negative regulation of gene expression
+GO:0006355;templated
+GO:0090701;specification of plant organ identity
+GO:0071555;cell wall organization
+GO:0030244;cellulose biosynthetic process
+GO:1900458;negative regulation of brassinosteroid mediated signaling pathway
+GO:0009640;photomorphogenesis
+GO:2000306;positive regulation of photomorphogenesis
+GO:0006355;templated
+GO:0009741;response to brassinosteroid
+GO:0010200;response to chitin
+GO:0080167;response to karrikin
+GO:0006355;templated
+GO:0006260;DNA replication
+GO:0006275;regulation of DNA replication
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0016036;cellular response to phosphate starvation
+GO:0006325;chromatin organization
+GO:0055065;metal ion homeostasis
+GO:0048767;root hair elongation
+GO:0009733;response to auxin
+GO:0010431;seed maturation
+GO:0009742;brassinosteroid mediated signaling pathway
+GO:0009729;detection of brassinosteroid stimulus
+GO:0009965;leaf morphogenesis
+GO:0009825;multidimensional cell growth
+GO:1900458;negative regulation of brassinosteroid mediated signaling pathway
+GO:0046827;positive regulation of protein export from nucleus
+GO:0046777;protein autophosphorylation
+GO:0006468;protein phosphorylation
+GO:0048765;root hair cell differentiation
+GO:0007165;signal transduction
+GO:0016032;viral process
+GO:0009873;activated signaling pathway
+GO:0010468;regulation of gene expression
+GO:0009738;activated signaling pathway
+GO:0045893;templated
+GO:0048564;photosystem I assembly
+GO:0080183;response to photooxidative stress
+GO:0007275;multicellular organism development
+GO:0006284;excision repair
+GO:0010582;floral meristem determinacy
+GO:0035670;type ovary development
+GO:0006355;templated
+GO:0001173;templated transcriptional start site selection
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0045893;templated
+GO:0006355;templated
+GO:0009637;response to blue light
+GO:0009739;response to gibberellin
+GO:0009734;activated signaling pathway
+GO:0010227;floral organ abscission
+GO:0010047;fruit dehiscence
+GO:0010150;leaf senescence
+GO:0008285;negative regulation of cell population proliferation
+GO:0045892;templated
+GO:0048481;plant ovule development
+GO:0009911;positive regulation of flower development
+GO:1903288;positive regulation of potassium ion import across plasma membrane
+GO:0009737;response to abscisic acid
+GO:0006355;templated
+GO:0006749;glutathione metabolic process
+GO:0008285;negative regulation of cell population proliferation
+GO:0006355;templated
+GO:0048364;root development
+GO:0006351;templated
+GO:0032502;developmental process
+GO:0009851;auxin biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0009299;mRNA transcription
+GO:0007275;multicellular organism development
+GO:0045893;templated
+GO:0045165;cell fate commitment
+GO:0048481;plant ovule development
+GO:0009944;abaxial axis
+GO:0006355;templated
+GO:0010161;red light signaling pathway
+GO:0009909;regulation of flower development
+GO:0010099;regulation of photomorphogenesis
+GO:0045892;templated
+GO:0009626;type hypersensitive response
+GO:0045893;templated
+GO:0009410;response to xenobiotic stimulus
+GO:0009862; salicylic acid mediated signaling pathway
+GO:0006351;templated
+GO:0010629;negative regulation of gene expression
+GO:0006355;templated
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0046686;response to cadmium ion
+GO:0006914;autophagy
+GO:0019760;glucosinolate metabolic process
+GO:0006355;templated
+GO:0005975;carbohydrate metabolic process
+GO:0045893;templated
+GO:0009733;response to auxin
+GO:0009851;auxin biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0007275;multicellular organism development
+GO:0045893;templated
+GO:0009908;flower development
+GO:0045824;negative regulation of innate immune response
+GO:0009911;positive regulation of flower development
+GO:0009637;response to blue light
+GO:0006351;templated
+GO:0006355;templated
+GO:0007623;circadian rhythm
+GO:0010031;circumnutation
+GO:0009908;flower development
+GO:0010629;negative regulation of gene expression
+GO:0000160;phosphorelay signal transduction system
+GO:0010468;regulation of gene expression
+GO:0006355;templated
+GO:0006351;templated
+GO:0030150;protein import into mitochondrial matrix
+GO:0048511;rhythmic process
+GO:0042752;regulation of circadian rhythm
+GO:0006355;templated
+GO:0006383;transcription by RNA polymerase III
+GO:0042742;defense response to bacterium
+GO:0009626;type hypersensitive response
+GO:0009862; salicylic acid mediated signaling pathway
+GO:0006351;templated
+GO:0007623;circadian rhythm
+GO:0009908;flower development
+GO:0010629;negative regulation of gene expression
+GO:0009585;red light phototransduction
+GO:0010468;regulation of gene expression
+GO:2000028; flowering
+GO:0090227;red light signaling pathway
+GO:0010218;response to far red light
+GO:0010114;response to red light
+GO:0009742;brassinosteroid mediated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0040008;regulation of growth
+GO:0009299;mRNA transcription
+GO:0045824;negative regulation of innate immune response
+GO:0062207;regulation of pattern recognition receptor signaling pathway
+GO:0006355;templated
+GO:0009735;response to cytokinin
+GO:0009725;response to hormone
+GO:0009826;unidimensional cell growth
+GO:0009738;activated signaling pathway
+GO:0106167;extracellular ATP signaling
+GO:0009963;positive regulation of flavonoid biosynthetic process
+GO:0045893;templated
+GO:0051289;protein homotetramerization
+GO:2000068;regulation of defense response to insect
+GO:0051090;binding transcription factor activity
+GO:2000652;regulation of secondary cell wall biogenesis
+GO:0043619;regulation of transcription from RNA polymerase II promoter in response to oxidative stress
+GO:0006355;templated
+GO:0090357;regulation of tryptophan metabolic process
+GO:0009737;response to abscisic acid
+GO:0010200;response to chitin
+GO:0009269;response to desiccation
+GO:0009753;response to jasmonic acid
+GO:0009611;response to wounding
+GO:0010374;stomatal complex development
+GO:0009736;activated signaling pathway
+GO:0009873;activated signaling pathway
+GO:0048366;leaf development
+GO:0009970;cellular response to sulfate starvation
+GO:0006952;defense response
+GO:0009294;DNA mediated transformation
+GO:0051170;import into nucleus
+GO:0045596;negative regulation of cell differentiation
+GO:0007231;osmosensory signaling pathway
+GO:0006970;response to osmotic stress
+GO:0008272;sulfate transport
+GO:0009652;thigmotropism
+GO:0008299;isoprenoid biosynthetic process
+GO:0000398; via spliceosome
+GO:0045694;regulation of embryo sac egg cell differentiation
+GO:0019760;glucosinolate metabolic process
+GO:0006355;templated
+GO:0030154;cell differentiation
+GO:0009908;flower development
+GO:0010220;positive regulation of vernalization response
+GO:0048366;leaf development
+GO:0042127;regulation of cell population proliferation
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0009738;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:2000306;positive regulation of photomorphogenesis
+GO:0010029;regulation of seed germination
+GO:0006355;templated
+GO:0006355;templated
+GO:0019509;methionine salvage from methylthioadenosine
+GO:0019284;adenosylmethionine
+GO:0042742;defense response to bacterium
+GO:0006351;templated
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0031347;regulation of defense response
+GO:2000032;regulation of secondary shoot formation
+GO:1900056;negative regulation of leaf senescence
+GO:0008361;regulation of cell size
+GO:0048364;root development
+GO:0009873;activated signaling pathway
+GO:0048510;regulation of timing of transition from vegetative to reproductive phase
+GO:0009965;leaf morphogenesis
+GO:0010016;shoot system morphogenesis
+GO:0009408;response to heat
+GO:0045893;templated
+GO:0010223;secondary shoot formation
+GO:0042752;regulation of circadian rhythm
+GO:0009908;flower development
+GO:0006378;mRNA polyadenylation
+GO:0006397;mRNA processing
+GO:0009911;positive regulation of flower development
+GO:0006369;termination of RNA polymerase II transcription
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0031347;regulation of defense response
+GO:0071215;cellular response to abscisic acid stimulus
+GO:0071333;cellular response to glucose stimulus
+GO:0009267;cellular response to starvation
+GO:0009649;entrainment of circadian clock
+GO:0009965;leaf morphogenesis
+GO:0009408;response to heat
+GO:0042742;defense response to bacterium
+GO:0006351;templated
+GO:0010229;inflorescence development
+GO:0010029;regulation of seed germination
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009739;response to gibberellin
+GO:0019760;glucosinolate metabolic process
+GO:0006952;defense response
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:0009611;response to wounding
+GO:0009734;activated signaling pathway
+GO:0010588;cotyledon vascular tissue pattern formation
+GO:0009630;gravitropism
+GO:0009733;response to auxin
+GO:0048364;root development
+GO:0009647;skotomorphogenesis
+GO:0006355;templated
+GO:0009738;activated signaling pathway
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0080163;threonine phosphatase activity
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0009686;gibberellin biosynthetic process
+GO:0009739;response to gibberellin
+GO:0009416;response to light stimulus
+GO:0010114;response to red light
+GO:0009639;response to red or far red light
+GO:0099402;plant organ development
+GO:0006557;adenosylmethioninamine biosynthetic process
+GO:0008295;spermidine biosynthetic process
+GO:0006597;spermine biosynthetic process
+GO:0010227;floral organ abscission
+GO:0010073;meristem maintenance
+GO:0008285;negative regulation of cell population proliferation
+GO:0009640;photomorphogenesis
+GO:0010371;regulation of gibberellin biosynthetic process
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0090470;shoot organ boundary specification
+GO:0010228;vegetative to reproductive phase transition of meristem
+GO:0006355;templated
+GO:0009926;auxin polar transport
+GO:0042742;defense response to bacterium
+GO:0002229;defense response to oomycetes
+GO:0009875;pistil interaction
+GO:0009862; salicylic acid mediated signaling pathway
+GO:0048366;leaf development
+GO:0031347;regulation of defense response
+GO:2000022;regulation of jasmonic acid mediated signaling pathway
+GO:1901371;regulation of leaf morphogenesis
+GO:0009611;response to wounding
+GO:0006633;fatty acid biosynthetic process
+GO:0009910;negative regulation of flower development
+GO:0006493;linked glycosylation
+GO:0010228;vegetative to reproductive phase transition of meristem
+GO:0000028;ribosomal small subunit assembly
+GO:0006412;translation
+GO:0009704;etiolation
+GO:0009640;photomorphogenesis
+GO:0080167;response to karrikin
+GO:0007049;cell cycle
+GO:0051301;cell division
+GO:0000079;threonine kinase activity
+GO:0008356;asymmetric cell division
+GO:0000911;cytokinesis by cell plate formation
+GO:0042023;DNA endoreduplication
+GO:0009793;embryo development ending in seed dormancy
+GO:0000082;S transition of mitotic cell cycle
+GO:0048229;gametophyte development
+GO:0010235;guard mother cell cytokinesis
+GO:0010444;guard mother cell differentiation
+GO:0033206;meiotic cytokinesis
+GO:0009555;pollen development
+GO:0008284;positive regulation of cell population proliferation
+GO:0006468;protein phosphorylation
+GO:1902806;S phase transition
+GO:0010389;M transition of mitotic cell cycle
+GO:0010468;regulation of gene expression
+GO:0051445;regulation of meiotic cell cycle
+GO:0040020;regulation of meiotic nuclear division
+GO:0009409;response to cold
+GO:0007165;signal transduction
+GO:0098725;symmetric cell division
+GO:0018026;lysine monomethylation
+GO:0018023;lysine trimethylation
+GO:0032259;methylation
+GO:0009738;activated signaling pathway
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009414;response to water deprivation
+GO:0045739;positive regulation of DNA repair
+GO:0006355;templated
+GO:0015979;photosynthesis
+GO:0045036;protein targeting to chloroplast
+GO:0006355;templated
+GO:0042138;strand break formation
+GO:0000212;meiotic spindle organization
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0009909;regulation of flower development
+GO:0000398; via spliceosome
+GO:0031124;end processing
+GO:0006378;mRNA polyadenylation
+GO:0000398; via spliceosome
+GO:0009626;type hypersensitive response
+GO:0034052;type hypersensitive response
+GO:0043068;positive regulation of programmed cell death
+GO:0000381; via spliceosome
+GO:1900363;regulation of mRNA polyadenylation
+GO:0048024; via spliceosome
+GO:2000031;regulation of salicylic acid mediated signaling pathway
+GO:0006979;response to oxidative stress
+GO:0006396;RNA processing
+GO:0090691;formation of plant organ boundary
+GO:0048366;leaf development
+GO:0010072;primary shoot apical meristem specification
+GO:0090709;regulation of timing of plant organ formation
+GO:0010223;secondary shoot formation
+GO:0006355;templated
+GO:0071456;cellular response to hypoxia
+GO:0016036;cellular response to phosphate starvation
+GO:0006355;templated
+GO:0080188;directed DNA methylation
+GO:0016571;histone methylation
+GO:0040029; epigenetic
+GO:0010618;aerenchyma formation
+GO:0050829;negative bacterium
+GO:0060866;leaf abscission
+GO:0006629;lipid metabolic process
+GO:0009626;type hypersensitive response
+GO:0010942;positive regulation of cell death
+GO:0010310;regulation of hydrogen peroxide metabolic process
+GO:0001666;response to hypoxia
+GO:0000304;response to singlet oxygen
+GO:0009627;systemic acquired resistance
+GO:0009738;activated signaling pathway
+GO:0019760;glucosinolate metabolic process
+GO:0009788;activated signaling pathway
+GO:0006355;templated
+GO:0007275;multicellular organism development
+GO:0010199;organ boundary specification between lateral organs and the meristem
+GO:0048440;carpel development
+GO:0045165;cell fate commitment
+GO:0010582;floral meristem determinacy
+GO:0048366;leaf development
+GO:0010254;nectary development
+GO:0009944;abaxial axis
+GO:0006355;templated
+GO:0048479;style development
+GO:0007275;multicellular organism development
+GO:0006486;protein glycosylation
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006796;containing compound metabolic process
+GO:0045892;templated
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0045165;cell fate commitment
+GO:0048481;plant ovule development
+GO:0009944;abaxial axis
+GO:0007275;multicellular organism development
+GO:0006470;protein dephosphorylation
+GO:0050688;regulation of defense response to virus
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0043433;binding transcription factor activity
+GO:0042753;positive regulation of circadian rhythm
+GO:0042752;regulation of circadian rhythm
+GO:0048511;rhythmic process
+GO:0006351;templated
+GO:0051301;cell division
+GO:0010087;phloem or xylem histogenesis
+GO:0010072;primary shoot apical meristem specification
+GO:0030154;cell differentiation
+GO:0048481;plant ovule development
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0010629;negative regulation of gene expression
+GO:0006355;templated
+GO:0009873;activated signaling pathway
+GO:0010468;regulation of gene expression
+GO:0009086;methionine biosynthetic process
+GO:0032259;methylation
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0009738;activated signaling pathway
+GO:0009736;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0007275;multicellular organism development
+GO:0009788;activated signaling pathway
+GO:0006355;templated
+GO:0010026;trichome differentiation
+GO:0010090;trichome morphogenesis
+GO:0009739;response to gibberellin
+GO:0009873;activated signaling pathway
+GO:0009793;embryo development ending in seed dormancy
+GO:0055046;microgametogenesis
+GO:0045892;templated
+GO:0009555;pollen development
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0048316;seed development
+GO:0010262;somatic embryogenesis
+GO:0006811;ion transport
+GO:0071456;cellular response to hypoxia
+GO:0009873;activated signaling pathway
+GO:0009864; jasmonic acid mediated signaling pathway
+GO:0010105;activated signaling pathway
+GO:0045892;templated
+GO:0009737;response to abscisic acid
+GO:0010200;response to chitin
+GO:0009723;response to ethylene
+GO:0006355;templated
+GO:0000226;microtubule cytoskeleton organization
+GO:0030154;cell differentiation
+GO:0009908;flower development
+GO:0043486;histone exchange
+GO:0006355;templated
+GO:0007623;circadian rhythm
+GO:0009909;regulation of flower development
+GO:0006355;templated
+GO:0009845;seed germination
+GO:0048653;anther development
+GO:0009851;auxin biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0009555;pollen development
+GO:0045893;templated
+GO:0007275;multicellular organism development
+GO:0034605;cellular response to heat
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0007275;multicellular organism development
+GO:0009734;activated signaling pathway
+GO:1900057;positive regulation of leaf senescence
+GO:0009733;response to auxin
+GO:0006355;templated
+GO:0005986;sucrose biosynthetic process
+GO:0017196;methionine acetylation
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0009908;flower development
+GO:0006355;templated
+GO:0071345;cellular response to cytokine stimulus
+GO:0009722;detection of cytokinin stimulus
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0009416;response to light stimulus
+GO:0000398; via spliceosome
+GO:0006355;templated
+GO:0010336;gibberellic acid homeostasis
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0009937;regulation of gibberellic acid mediated signaling pathway
+GO:0006355;templated
+GO:0010252;auxin homeostasis
+GO:0051301;cell division
+GO:0007623;circadian rhythm
+GO:0042023;DNA endoreduplication
+GO:0048467;gynoecium development
+GO:0010229;inflorescence development
+GO:0031540;regulation of anthocyanin biosynthetic process
+GO:0006355;templated
+GO:0009735;response to cytokinin
+GO:0080086;stamen filament development
+GO:0007275;multicellular organism development
+GO:0031347;regulation of defense response
+GO:0010029;regulation of seed germination
+GO:0009737;response to abscisic acid
+GO:0009739;response to gibberellin
+GO:0009664;type cell wall organization
+GO:0006817;phosphate ion transport
+GO:0048653;anther development
+GO:0090506;axillary shoot meristem initiation
+GO:0030154;cell differentiation
+GO:0006355;templated
+GO:0019827;stem cell population maintenance
+GO:0080166;stomium development
+GO:0099402;plant organ development
+GO:0009734;activated signaling pathway
+GO:0007623;circadian rhythm
+GO:0010600;regulation of auxin biosynthetic process
+GO:0006355;templated
+GO:0016567;protein ubiquitination
+GO:1900056;negative regulation of leaf senescence
+GO:0008361;regulation of cell size
+GO:0006355;templated
+GO:0048364;root development
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0031347;regulation of defense response
+GO:2000032;regulation of secondary shoot formation
+GO:0045892;templated
+GO:0048510;regulation of timing of transition from vegetative to reproductive phase
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0055085;transmembrane transport
+GO:0009736;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0019760;glucosinolate metabolic process
+GO:0007275;multicellular organism development
+GO:0006355;templated
+GO:0010026;trichome differentiation
+GO:0010090;trichome morphogenesis
+GO:0009058;biosynthetic process
+GO:0048653;anther development
+GO:0009851;auxin biosynthetic process
+GO:0009734;activated signaling pathway
+GO:0009640;photomorphogenesis
+GO:0009555;pollen development
+GO:0045893;templated
+GO:0007275;multicellular organism development
+GO:0051301;cell division
+GO:0010087;phloem or xylem histogenesis
+GO:0010067;procambium histogenesis
+GO:0007165;signal transduction
+GO:0009888;tissue development
+GO:0009908;flower development
+GO:0006378;mRNA polyadenylation
+GO:0006397;mRNA processing
+GO:0009911;positive regulation of flower development
+GO:0006369;termination of RNA polymerase II transcription
+GO:0010252;auxin homeostasis
+GO:0051301;cell division
+GO:0007623;circadian rhythm
+GO:0042023;DNA endoreduplication
+GO:0048467;gynoecium development
+GO:0010229;inflorescence development
+GO:0031540;regulation of anthocyanin biosynthetic process
+GO:0006355;templated
+GO:0009735;response to cytokinin
+GO:0080086;stamen filament development
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0031347;regulation of defense response
+GO:2000032;regulation of secondary shoot formation
+GO:0042742;defense response to bacterium
+GO:0006338;chromatin remodeling
+GO:0035066;positive regulation of histone acetylation
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0035065;regulation of histone acetylation
+GO:0009409;response to cold
+GO:0048653;anther development
+GO:0048533;sporocyte differentiation
+GO:0009742;brassinosteroid mediated signaling pathway
+GO:0045892;templated
+GO:0048481;plant ovule development
+GO:0040008;regulation of growth
+GO:0006355;templated
+GO:0048316;seed development
+GO:0006351;templated
+GO:0045892;templated
+GO:0042744;hydrogen peroxide catabolic process
+GO:0006979;response to oxidative stress
+GO:0009742;brassinosteroid mediated signaling pathway
+GO:0071367;cellular response to brassinosteroid stimulus
+GO:0001935;endothelial cell proliferation
+GO:0080060;integument development
+GO:0051782;negative regulation of cell division
+GO:0048579; flowering
+GO:0045893;templated
+GO:1904961;quiescent center organization
+GO:0080113;regulation of seed growth
+GO:0006355;templated
+GO:0010229;inflorescence development
+GO:0031347;regulation of defense response
+GO:0010029;regulation of seed germination
+GO:0006355;templated
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009739;response to gibberellin
+GO:0045892;templated
+GO:0006952;defense response
+GO:0009873;activated signaling pathway
+GO:0009738;activated signaling pathway
+GO:0009788;activated signaling pathway
+GO:0006355;templated
+GO:0006952;defense response
+GO:0009873;activated signaling pathway
+GO:0019760;glucosinolate metabolic process
+GO:0007165;signal transduction
+GO:0010112;regulation of systemic acquired resistance
+GO:0010158;abaxial cell fate specification
+GO:0045165;cell fate commitment
+GO:0010154;fruit development
+GO:0010450;inflorescence meristem growth
+GO:0009933;meristem structural organization
+GO:0009944;abaxial axis
+GO:0009909;regulation of flower development
+GO:2000024;regulation of leaf development
+GO:1902183;regulation of shoot apical meristem development
+GO:0010093;specification of floral organ identity
+GO:0090706;specification of plant organ position
+GO:0007275;multicellular organism development
+GO:0010158;abaxial cell fate specification
+GO:0048653;anther development
+GO:0048440;carpel development
+GO:0009908;flower development
+GO:0009965;leaf morphogenesis
+GO:0009909;regulation of flower development
+GO:0010093;specification of floral organ identity
+GO:0048443;stamen development
+GO:0007275;multicellular organism development
+GO:0042742;defense response to bacterium
+GO:0010468;regulation of gene expression
+GO:0006355;templated
+GO:0048825;cotyledon development
+GO:0009793;embryo development ending in seed dormancy
+GO:0009908;flower development
+GO:0045892;templated
+GO:0009909;regulation of flower development
+GO:0009934;regulation of meristem structural organization
+GO:0006355;templated
+GO:0016567;protein ubiquitination
+GO:0045824;negative regulation of innate immune response
+GO:0006355;templated
+GO:0006351;templated
+GO:0009640;photomorphogenesis
+GO:0006355;templated
+GO:0009793;embryo development ending in seed dormancy
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0048316;seed development
+GO:0010262;somatic embryogenesis
+GO:0009908;flower development
+GO:0048579; flowering
+GO:0048577; flowering
+GO:0006355;templated
+GO:0010229;inflorescence development
+GO:0031347;regulation of defense response
+GO:0010029;regulation of seed germination
+GO:0006355;templated
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009739;response to gibberellin
+GO:0006888;mediated transport
+GO:0015031;protein transport
+GO:0048653;anther development
+GO:0006355;templated
+GO:0009567;double fertilization forming a zygote and endosperm
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0009873;activated signaling pathway
+GO:0010200;response to chitin
+GO:0010158;abaxial cell fate specification
+GO:0009943;abaxial axis specification
+GO:0048440;carpel development
+GO:1905392;plant organ morphogenesis
+GO:0048481;plant ovule development
+GO:0009944;abaxial axis
+GO:0009956;radial pattern formation
+GO:0006355;templated
+GO:0010051;xylem and phloem pattern formation
+GO:0009736;activated signaling pathway
+GO:0009873;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0048510;regulation of timing of transition from vegetative to reproductive phase
+GO:0006355;templated
+GO:0048767;root hair elongation
+GO:0048766;root hair initiation
+GO:0010026;trichome differentiation
+GO:0010090;trichome morphogenesis
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0009873;activated signaling pathway
+GO:0009738;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:2000306;positive regulation of photomorphogenesis
+GO:0010029;regulation of seed germination
+GO:0045893;templated
+GO:0009943;abaxial axis specification
+GO:0030154;cell differentiation
+GO:0009947;centrolateral axis specification
+GO:0009908;flower development
+GO:0099402;plant organ development
+GO:0010482;regulation of epidermal cell division
+GO:0010865;stipule development
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0007275;multicellular organism development
+GO:0006355;templated
+GO:0009739;response to gibberellin
+GO:0010091;trichome branching
+GO:0010026;trichome differentiation
+GO:0010090;trichome morphogenesis
+GO:0030154;cell differentiation
+GO:0010582;floral meristem determinacy
+GO:0009933;meristem structural organization
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0009908;flower development
+GO:0045893;templated
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006378;mRNA polyadenylation
+GO:0006369;termination of RNA polymerase II transcription
+GO:0010468;regulation of gene expression
+GO:0048825;cotyledon development
+GO:0048826;cotyledon morphogenesis
+GO:0009793;embryo development ending in seed dormancy
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:1901347;negative regulation of secondary cell wall biogenesis
+GO:0051511;negative regulation of unidimensional cell growth
+GO:0045893;templated
+GO:0010229;inflorescence development
+GO:0031347;regulation of defense response
+GO:0010029;regulation of seed germination
+GO:0009737;response to abscisic acid
+GO:0009735;response to cytokinin
+GO:0009739;response to gibberellin
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:0006355;templated
+GO:0018160;pyrromethane cofactor linkage
+GO:0006782;protoporphyrinogen IX biosynthetic process
+GO:0043069;negative regulation of programmed cell death
+GO:0009626;type hypersensitive response
+GO:0010618;aerenchyma formation
+GO:0010602;carboxylate metabolic process
+GO:0010104;activated signaling pathway
+GO:0010310;regulation of hydrogen peroxide metabolic process
+GO:0001666;response to hypoxia
+GO:0002240;response to molecule of oomycetes origin
+GO:0000303;response to superoxide
+GO:0009862; salicylic acid mediated signaling pathway
+GO:0008219;cell death
+GO:0000902;cell morphogenesis
+GO:0035017;cuticle pattern formation
+GO:1901957;regulation of cutin biosynthetic process
+GO:0010091;trichome branching
+GO:0030154;cell differentiation
+GO:0010582;floral meristem determinacy
+GO:0009910;negative regulation of flower development
+GO:0010221;negative regulation of vernalization response
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0010048;vernalization response
+GO:0016567;protein ubiquitination
+GO:0009640;photomorphogenesis
+GO:0009585;red light phototransduction
+GO:0009640;photomorphogenesis
+GO:0009585;red light phototransduction
+GO:0009637;response to blue light
+GO:0046283;containing compound metabolic process
+GO:0006281;DNA repair
+GO:0009649;entrainment of circadian clock
+GO:0009640;photomorphogenesis
+GO:0048573; flowering
+GO:0009585;red light phototransduction
+GO:0010119;regulation of stomatal movement
+GO:0009641;shade avoidance
+GO:0009647;skotomorphogenesis
+GO:0048444;floral organ morphogenesis
+GO:0009630;gravitropism
+GO:0009965;leaf morphogenesis
+GO:0010601;positive regulation of auxin biosynthetic process
+GO:2000012;regulation of auxin polar transport
+GO:2000904;regulation of starch metabolic process
+GO:0006355;templated
+GO:0045893;templated
+GO:2000652;regulation of secondary cell wall biogenesis
+GO:0006355;templated
+GO:0042742;defense response to bacterium
+GO:0045893;templated
+GO:0006355;templated
+GO:0006367;transcription initiation from RNA polymerase II promoter
+GO:0009718;containing compound biosynthetic process
+GO:0010023;proanthocyanidin biosynthetic process
+GO:0030154;cell differentiation
+GO:0009873;activated signaling pathway
+GO:0006952;defense response
+GO:0051301;cell division
+GO:0070370;cellular heat acclimation
+GO:0031087;transcribed mRNA
+GO:0010286;heat acclimation
+GO:0010587;miRNA catabolic process
+GO:0006402;mRNA catabolic process
+GO:0006397;mRNA processing
+GO:0000956;transcribed mRNA catabolic process
+GO:0000291; exonucleolytic
+GO:0010087;phloem or xylem histogenesis
+GO:0040029; epigenetic
+GO:0009826;unidimensional cell growth
+GO:0010252;auxin homeostasis
+GO:0048527;lateral root development
+GO:0048366;leaf development
+GO:0010150;leaf senescence
+GO:2000469;negative regulation of peroxidase activity
+GO:0000122;negative regulation of transcription by RNA polymerase II
+GO:0045892;templated
+GO:0030307;positive regulation of cell growth
+GO:0090697;embryonic plant organ morphogenesis
+GO:0006355;templated
+GO:0009737;response to abscisic acid
+GO:0009646;response to absence of light
+GO:0009733;response to auxin
+GO:0009723;response to ethylene
+GO:0009739;response to gibberellin
+GO:0009744;response to sucrose
+GO:0007143;female meiotic nuclear division
+GO:0007140;male meiotic nuclear division
+GO:0046470;phosphatidylcholine metabolic process
+GO:0009395;phospholipid catabolic process
+GO:0016042;lipid catabolic process
+GO:0031122;cytoplasmic microtubule organization
+GO:0007020;microtubule nucleation
+GO:0006355;templated
+GO:0048366;leaf development
+GO:0009638;phototropism
+GO:0009585;red light phototransduction
+GO:0009658;chloroplast organization
+GO:0009909;regulation of flower development
+GO:0007005;mitochondrion organization
+GO:0006355;templated
+GO:0008610;lipid biosynthetic process
+GO:0045893;templated
+GO:0006355;templated
+GO:0010223;secondary shoot formation
+GO:0009641;shade avoidance
+GO:0070370;cellular heat acclimation
+GO:0071483;cellular response to blue light
+GO:0010100;negative regulation of photomorphogenesis
+GO:0009640;photomorphogenesis
+GO:0006355;templated
+GO:0010187;negative regulation of seed germination
+GO:0016567;protein ubiquitination
+GO:0009737;response to abscisic acid
+GO:0009651;response to salt stress
+GO:0045165;cell fate commitment
+GO:0009957;epidermal cell fate specification
+GO:0007275;multicellular organism development
+GO:0032880;regulation of protein localization
+GO:0009733;response to auxin
+GO:0009723;response to ethylene
+GO:0010026;trichome differentiation
+GO:0009909;regulation of flower development
+GO:0009733;response to auxin
+GO:0045893;templated
+GO:0010182;sugar mediated signaling pathway
+GO:0010629;negative regulation of gene expression
+GO:0048579; flowering
+GO:2000032;regulation of secondary shoot formation
+GO:0006355;templated
+GO:0006071;glycerol metabolic process
+GO:0006629;lipid metabolic process
+GO:0048574; flowering
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0019760;glucosinolate metabolic process
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0071555;cell wall organization
+GO:0045489;pectin biosynthetic process
+GO:0007623;circadian rhythm
+GO:0045892;templated
+GO:0000160;phosphorelay signal transduction system
+GO:0010017;red light signaling pathway
+GO:0006355;templated
+GO:0048511;rhythmic process
+GO:0009738;activated signaling pathway
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0009958;positive gravitropism
+GO:0031539;positive regulation of anthocyanin metabolic process
+GO:0042753;positive regulation of circadian rhythm
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0009787;activated signaling pathway
+GO:0010099;regulation of photomorphogenesis
+GO:0009737;response to abscisic acid
+GO:0010218;response to far red light
+GO:0080167;response to karrikin
+GO:0010114;response to red light
+GO:0010224;B
+GO:0009910;negative regulation of flower development
+GO:0045892;templated
+GO:0048367;shoot system development
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0009414;response to water deprivation
+GO:0009738;activated signaling pathway
+GO:0045893;templated
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006355;templated
+GO:0034605;cellular response to heat
+GO:0048530;fruit morphogenesis
+GO:0048527;lateral root development
+GO:0009958;positive gravitropism
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0009733;response to auxin
+GO:0009408;response to heat
+GO:0048364;root development
+GO:0009813;flavonoid biosynthetic process
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0031542;positive regulation of anthocyanin biosynthetic process
+GO:0009962;regulation of flavonoid biosynthetic process
+GO:2000029;regulation of proanthocyanidin biosynthetic process
+GO:0010214;seed coat development
+GO:0048316;seed development
+GO:0010026;trichome differentiation
+GO:0006869;lipid transport
+GO:0001708;cell fate specification
+GO:0009957;epidermal cell fate specification
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0007275;multicellular organism development
+GO:0031542;positive regulation of anthocyanin biosynthetic process
+GO:0010091;trichome branching
+GO:0010026;trichome differentiation
+GO:0070370;cellular heat acclimation
+GO:0071483;cellular response to blue light
+GO:0010100;negative regulation of photomorphogenesis
+GO:0009640;photomorphogenesis
+GO:0006355;templated
+GO:0045944;positive regulation of transcription by RNA polymerase II
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0010099;regulation of photomorphogenesis
+GO:0010218;response to far red light
+GO:0080167;response to karrikin
+GO:0010114;response to red light
+GO:0010224;B
+GO:0007623;circadian rhythm
+GO:0009909;regulation of flower development
+GO:0009640;photomorphogenesis
+GO:0048573; flowering
+GO:1902448;positive regulation of shade avoidance
+GO:0006355;templated
+GO:0080167;response to karrikin
+GO:0009416;response to light stimulus
+GO:0090351;seedling development
+GO:0010228;vegetative to reproductive phase transition of meristem
+GO:0006357;regulation of transcription by RNA polymerase II
+GO:0006342;chromatin silencing
+GO:0006355;templated
+GO:0009638;phototropism
+GO:0009958;positive gravitropism
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0010218;response to far red light
+GO:0010114;response to red light
+GO:0009687;abscisic acid metabolic process
+GO:0006325;chromatin organization
+GO:0010617;circadian regulation of calcium ion oscillation
+GO:0009584;detection of visible light
+GO:0009649;entrainment of circadian clock
+GO:0009630;gravitropism
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0045892;templated
+GO:0009640;photomorphogenesis
+GO:0015979;photosynthesis
+GO:0009638;phototropism
+GO:0018298;chromophore linkage
+GO:0017012;phytochromobilin linkage
+GO:0010161;red light signaling pathway
+GO:0031347;regulation of defense response
+GO:2000028; flowering
+GO:0010029;regulation of seed germination
+GO:0009409;response to cold
+GO:0010218;response to far red light
+GO:0010244;fluence system
+GO:0010202;response to low fluence red light stimulus
+GO:0009266;response to temperature stimulus
+GO:0010374;stomatal complex development
+GO:0010148;transpiration
+GO:0017006;tetrapyrrole linkage
+GO:0009585;red light phototransduction
+GO:0006355;templated
+GO:0060320;rejection of self pollen
+GO:0009584;detection of visible light
+GO:0009630;gravitropism
+GO:0017148;negative regulation of translation
+GO:0009640;photomorphogenesis
+GO:0009638;phototropism
+GO:0018298;chromophore linkage
+GO:0017006;tetrapyrrole linkage
+GO:0010161;red light signaling pathway
+GO:0006355;templated
+GO:0046685;containing substance
+GO:0010201;irradiance response system
+GO:0010218;response to far red light
+GO:0010203;response to very low fluence red light stimulus
+GO:0009585;red light phototransduction
+GO:0009718;containing compound biosynthetic process
+GO:0009867;jasmonic acid mediated signaling pathway
+GO:0031542;positive regulation of anthocyanin biosynthetic process
+GO:0031540;regulation of anthocyanin biosynthetic process
+GO:0019430;removal of superoxide radicals
+GO:0009733;response to auxin
+GO:0009723;response to ethylene
+GO:0002239;response to oomycetes
+GO:0009745;sucrose mediated signaling
+GO:0007623;circadian rhythm
+GO:0048579; flowering
+GO:0006355;templated
+GO:0009785;blue light signaling pathway
+GO:0006325;chromatin organization
+GO:0006338;chromatin remodeling
+GO:0010617;circadian regulation of calcium ion oscillation
+GO:0032922;circadian regulation of gene expression
+GO:0007623;circadian rhythm
+GO:0051607;defense response to virus
+GO:0043153;entrainment of circadian clock by photoperiod
+GO:0072387;flavin adenine dinucleotide metabolic process
+GO:0048574; flowering
+GO:0016310;phosphorylation
+GO:0009638;phototropism
+GO:0009911;positive regulation of flower development
+GO:2000379;positive regulation of reactive oxygen species metabolic process
+GO:0018298;chromophore linkage
+GO:0042752;regulation of circadian rhythm
+GO:0009909;regulation of flower development
+GO:1901371;regulation of leaf morphogenesis
+GO:0010075;regulation of meristem growth
+GO:2000028; flowering
+GO:0009646;response to absence of light
+GO:0009637;response to blue light
+GO:0009416;response to light stimulus
+GO:0010244;fluence system
+GO:1902347;response to strigolactone
+GO:0009414;response to water deprivation
+GO:0010118;stomatal movement
+GO:0009738;activated signaling pathway
+GO:0009785;blue light signaling pathway
+GO:0009585;red light phototransduction
+GO:0010218;response to far red light
+GO:0009642;response to light intensity
+GO:0009704;etiolation
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0031539;positive regulation of anthocyanin metabolic process
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0006355;templated
+GO:0009639;response to red or far red light
+GO:0006412;translation
+GO:0009704;etiolation
+GO:0009638;phototropism
+GO:0010161;red light signaling pathway
+GO:0010017;red light signaling pathway
+GO:0009585;red light phototransduction
+GO:0010600;regulation of auxin biosynthetic process
+GO:0010928;regulation of auxin mediated signaling pathway
+GO:0010244;fluence system
+GO:0007623;circadian rhythm
+GO:0042753;positive regulation of circadian rhythm
+GO:0010468;regulation of gene expression
+GO:0006355;templated
+GO:0015995;chlorophyll biosynthetic process
+GO:0009740;gibberellic acid mediated signaling pathway
+GO:0006783;heme biosynthetic process
+GO:0009959;negative gravitropism
+GO:0010100;negative regulation of photomorphogenesis
+GO:0010187;negative regulation of seed germination
+GO:0010161;red light signaling pathway
+GO:0010099;regulation of photomorphogenesis
+GO:0010029;regulation of seed germination
+GO:0006355;templated
+
+KEGG pathways
+{"ath00190"=>"Oxidative phosphorylation", "ath00195"=>"Photosynthesis", "ath01100"=>"Metabolic pathways"}
+{"ath04712"=>"Circadian rhythm - plant"}
+{"ath04075"=>"Plant hormone signal transduction"}
+{"ath03018"=>"RNA degradation"}
+{"ath04016"=>"MAPK signaling pathway - plant", "ath04075"=>"Plant hormone signal transduction"}
+{"ath04016"=>"MAPK signaling pathway - plant", "ath04075"=>"Plant hormone signal transduction", "ath04626"=>"Plant-pathogen interaction"}
+{"ath04016"=>"MAPK signaling pathway - plant"}
+{"ath04136"=>"Autophagy - other"}
+{"ath00195"=>"Photosynthesis", "ath01100"=>"Metabolic pathways"}
+{"ath00910"=>"Nitrogen metabolism", "ath01100"=>"Metabolic pathways"}
+{"ath00630"=>"Glyoxylate and dicarboxylate metabolism", "ath00710"=>"Carbon fixation in photosynthetic organisms", "ath01100"=>"Metabolic pathways", "ath01110"=>"Biosynthesis of secondary metabolites", "ath01200"=>"Carbon metabolism"}
+{"ath03015"=>"mRNA surveillance pathway"}
+{"ath03040"=>"Spliceosome"}
+{"ath00904"=>"Diterpenoid biosynthesis", "ath01100"=>"Metabolic pathways", "ath01110"=>"Biosynthesis of secondary metabolites"}
+{"ath00270"=>"Cysteine and methionine metabolism", "ath00330"=>"Arginine and proline metabolism", "ath01100"=>"Metabolic pathways"}
+{"ath00514"=>"Other types of O-glycan biosynthesis"}
+{"ath00310"=>"Lysine degradation", "ath01100"=>"Metabolic pathways"}
+{"ath04626"=>"Plant-pathogen interaction"}
+{"ath04120"=>"Ubiquitin mediated proteolysis", "ath04712"=>"Circadian rhythm - plant"}
+{"ath00564"=>"Glycerophospholipid metabolism", "ath00565"=>"Ether lipid metabolism", "ath01100"=>"Metabolic pathways", "ath01110"=>"Biosynthesis of secondary metabolites", "ath04144"=>"Endocytosis"}
+{"ath04075"=>"Plant hormone signal transduction", "ath04712"=>"Circadian rhythm - plant"}
+
+
+Sub network 2:
+
+GO process:
+GO:0009773;photosynthetic electron transport in photosystem I
+GO:0009643;photosynthetic acclimation
+GO:0009767;photosynthetic electron transport chain
+GO:0009853;photorespiration
+GO:0019253;phosphate cycle
+GO:0006355;templated
+GO:0009738;activated signaling pathway
+GO:0045893;templated
+GO:0009737;response to abscisic acid
+GO:0006355;templated
+GO:0009738;activated signaling pathway
+GO:0009926;auxin polar transport
+GO:0009734;activated signaling pathway
+GO:0006952;defense response
+GO:0009873;activated signaling pathway
+GO:0009789;activated signaling pathway
+GO:0006470;protein dephosphorylation
+GO:0035304;regulation of protein dephosphorylation
+GO:0010119;regulation of stomatal movement
+GO:0009723;response to ethylene
+
+KEGG pathways
+
+{"ath00195"=>"Photosynthesis", "ath01100"=>"Metabolic pathways"}
+{"ath04075"=>"Plant hormone signal transduction"}

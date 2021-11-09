@@ -1,9 +1,11 @@
-require '/home/osboxes/BioinformaticsIntroGit/Assignments/Assignment2/main.rb'
-require '/home/osboxes/BioinformaticsIntroGit/Assignments/Assignment2/Interaction_class.rb'
-require '/home/osboxes/BioinformaticsIntroGit/Assignments/Assignment2/Gene_class.rb' 
+require './common_functions.rb'
+require './Interaction_class.rb'
+require './Gene_class.rb' 
 
 
 class Intact_querry
+  
+  # Class to compute the querry to the intact server and retrieve all information
   
   # url = adress + id + format
   @@adress = "http://www.ebi.ac.uk/Tools/webservices/psicquic/intact/webservices/current/search/interactor/"
@@ -18,10 +20,11 @@ class Intact_querry
 
     
   def initialize(params={})
-    @id = params.fetch(:id)
+    id = params.fetch(:id)
+    @id = id.downcase.capitalize
     @url = @@adress + @id + @@format
     res = fetch(@url)
-    @@threshold = params.fetch(:threshold, 0.20)
+    @@threshold = params.fetch(:threshold, 0.45)
     @interactions = []
     @partners = []
     @print = params.fetch(:print, true)
@@ -29,12 +32,13 @@ class Intact_querry
     if res  
       body = res.body
       if @print
-        puts "=====================\nInteraction querry of gene id #{@id}: \n"
+        puts "====================="
+        puts "Interaction querry of gene id #{@id}:"
       end
       @body = body.split("\n") # Separate the interaction lines
       @body.each {|line|
         if @print
-            puts "---------------------"
+          puts "---------------------"
         end
         *rest, quality = line.split("\t")
         
@@ -65,6 +69,7 @@ class Intact_querry
         end
         
         unless @partners.include? interactorB
+          interactorA, interactorB = interactorA.downcase.capitalize, interactorB.downcase.capitalize
           inter = Interaction.new({interactors: [interactorA, interactorB],
                                    quality: quality})
           @interactions |= [inter]
@@ -95,7 +100,6 @@ class Intact_querry
   
   
   def Intact_querry.get_querry(id)
-    # returns the querry for the gene id
     return @@all_querries[id.to_sym]
   end
   
@@ -108,4 +112,70 @@ class Intact_querry
   def Intact_querry.get_failed_querries
     return @@unsuccesful_querries
   end
+  
+  
+  def remove_failed(fails)
+    # Partners before:
+    pb = @partners
+    # Interactions before:
+    ib = @interactions
+    
+    fails.each {|fail|
+      @partners.delete(fail)
+      @interactions.each {|int|
+        if int.include? fail
+          @interactions.delete(int)
+        end
+        
+        }
+      }
+    unless pb == @partners or ib == @interactions
+      puts "Partners before: #{pb.join ","}"
+      puts "interactions after: #{ib.join ","}"
+      puts "Partners after: #{@partners.join ","}"
+      puts "interactions after: #{@interactions.join ","}"
+    end
+    
+    
+  end
+  
+  
+  def get_locus_name(rest, print) # function to get the arabidopsis ids from the querry
+  
+    # match data: https://ruby-doc.org/core-3.0.2/MatchData.html
+    # columns 5 and 6 are the aliases of interactors A and B, where the arabidopsis id is located.
+    # We can do this because the tab25 is strict, and all columns are mandatory
+    interactorA = rest[4].split("|") 
+    interactorB = rest[5].split("|")
+    interactorA = get_arabidopsis_id(interactorA)[0]
+    interactorB = get_arabidopsis_id(interactorB)[0]
+  
+    if interactorA.nil?
+      if print
+        puts "Warning, the interaction partner does not have an arabidopsis gene identifier!"
+        #$Stderr.puts "Warning, the interaction partner does not have an arabidopsis gene identifier!"
+      end
+  
+    end
+    
+    return interactorA, interactorB
+  
+  end
+
+
+  def get_arabidopsis_id(aliases)
+    # get all arabidopsis ids
+    out_list = []
+    ara_id = /A[Tt]\d[Gg]\d\d\d\d\d/
+    aliases.each {|element|
+      if ara_id.match(element)
+        match = ara_id.match(element)[0]
+        out_list |= [match]
+      end
+      }
+    return out_list
+  
+  end
+  
+  
 end
