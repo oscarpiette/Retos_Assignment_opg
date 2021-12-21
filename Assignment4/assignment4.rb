@@ -11,7 +11,7 @@ unless ARGV.length == 2
   abort
 end
 
-# Options are fixed as follows:
+# Options are fixed as follows
 Filter = '"m S"'
 E_value = 1e-6
 Coverage = 0.5
@@ -43,14 +43,11 @@ puts "Database 2, query 1:"
 
 file1 = Bio::FlatFile.auto(files[0])
 best_hits_query1_db2 = {}
-count = 0
 file1.each_entry {|entry|
-  break if count >= 10
   results = blasting(entry, database2, E_value, Coverage, First_only)
   if results
     entry_name = entry.definition.split("|").first.rstrip
     best_hits_query1_db2[entry_name] = results
-    count += 1
   end
   }
 puts 
